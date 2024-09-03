@@ -992,7 +992,7 @@ function Library:CreateWindow(a)
 
 	Credit.Parent = BackGround
 	Credit.BorderSizePixel = 0
-	Credit.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	Credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Credit.Size = UDim2.new(0, 217, 0, 43)
 	Credit.Position = UDim2.new(0.38737, 0, 0.05667, 0)
 	Credit.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1012,7 +1012,7 @@ function Library:CreateWindow(a)
 
 	PatinumText.Parent = Credit
 	PatinumText.BorderSizePixel = 0
-	PatinumText.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	PatinumText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	PatinumText.TextSize = 11
 	PatinumText.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 	PatinumText.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1033,7 +1033,7 @@ function Library:CreateWindow(a)
 
 	Bang1.Parent = Credit
 	Bang1.BorderSizePixel = 0
-	Bang1.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	Bang1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Bang1.Size = UDim2.new(0, 7, 0, 15)
 	Bang1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Bang1.Name = "Bang1"
@@ -1041,7 +1041,7 @@ function Library:CreateWindow(a)
 	Bang1.BackgroundTransparency = 1
 
 	UserIcon.Parent = Credit
-	UserIcon.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	UserIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	UserIcon.ImageTransparency = 0.5
 	UserIcon.ImageColor3 = Color3.fromRGB(0, 0, 0)
 	UserIcon.Image = "rbxassetid://2790547157"
@@ -1054,7 +1054,7 @@ function Library:CreateWindow(a)
 	CreditText.Parent = Credit
 	CreditText.BorderSizePixel = 0
 	CreditText.TextTransparency = 0.5
-	CreditText.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	CreditText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	CreditText.TextSize = 9
 	CreditText.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 	CreditText.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1077,7 +1077,7 @@ function Library:CreateWindow(a)
 
 	Bang2.Parent = Credit
 	Bang2.BorderSizePixel = 0
-	Bang2.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	Bang2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Bang2.Size = UDim2.new(0, 7, 0, 15)
 	Bang2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Bang2.Name = "Bang1"
@@ -1086,7 +1086,7 @@ function Library:CreateWindow(a)
 
 	Bang3.Parent = Credit
 	Bang3.BorderSizePixel = 0
-	Bang3.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	Bang3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Bang3.Size = UDim2.new(0, 7, 0, 15)
 	Bang3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	Bang3.Name = "Bang1"
@@ -1095,7 +1095,7 @@ function Library:CreateWindow(a)
 
 	FPSValue.Parent = Credit
 	FPSValue.BorderSizePixel = 0
-	FPSValue.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	FPSValue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	FPSValue.TextSize = 9
 	FPSValue.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 	FPSValue.TextColor3 = Color3.fromRGB(11, 192, 57)
@@ -1137,7 +1137,7 @@ function Library:CreateWindow(a)
 	FPSText.Parent = Credit
 	FPSText.BorderSizePixel = 0
 	FPSText.TextTransparency = 0.5
-	FPSText.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	FPSText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	FPSText.TextSize = 9
 	FPSText.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 	FPSText.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -1158,7 +1158,7 @@ function Library:CreateWindow(a)
 
 	TimeMark.Parent = BackGround
 	TimeMark.BorderSizePixel = 0
-	TimeMark.BackgroundColor3 = Color3.fromRGB(2, 1, 9)
+	TimeMark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	TimeMark.Size = UDim2.new(0, 67, 0, 43)
 	TimeMark.Position = UDim2.new(0.22105, 0, 0.05667, 0)
 	TimeMark.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1174,7 +1174,7 @@ function Library:CreateWindow(a)
 	Text["Parent"] = TimeMark
 	Text["BorderSizePixel"] = 0
 	Text["TextXAlignment"] = Enum.TextXAlignment.Left
-	Text["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	Text["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	Text["TextSize"] = 10
 	Text["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 	Text["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1188,7 +1188,7 @@ function Library:CreateWindow(a)
 	Des["Parent"] = TimeMark
 	Des["BorderSizePixel"] = 0
 	Des["TextTransparency"] = 0.5
-	Des["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	Des["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	Des["TextSize"] = 12
 	Des["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 	Des["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1230,7 +1230,7 @@ function Library:CreateWindow(a)
 
 	Discord["Parent"] = BackGround
 	Discord["BorderSizePixel"] = 0
-	Discord["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	Discord["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	Discord["Size"] = UDim2.new(0, 43, 0, 43)
 	Discord["Position"] = UDim2.new(0.86737, 0, 0.05667, 0)
 	Discord["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1245,7 +1245,7 @@ function Library:CreateWindow(a)
 
 	IconDiscord["Parent"] = Discord
 	IconDiscord["BorderSizePixel"] = 0
-	IconDiscord["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	IconDiscord["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	IconDiscord["ImageColor3"] = Color3.fromRGB(0, 0, 0)
 	IconDiscord["ImageTransparency"] = 0.5
 	IconDiscord["AnchorPoint"] = Vector2.new(0.5, 0.5)
@@ -1260,7 +1260,7 @@ function Library:CreateWindow(a)
 	DiscordClick["BorderSizePixel"] = 0
 	DiscordClick["TextSize"] = 14
 	DiscordClick["TextColor3"] = Color3.fromRGB(0, 0, 0)
-	DiscordClick["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	DiscordClick["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	DiscordClick["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 	DiscordClick["Size"] = UDim2.new(1, 0, 1, 0)
 	DiscordClick["BackgroundTransparency"] = 1
@@ -1293,7 +1293,7 @@ function Library:CreateWindow(a)
 
 	Tab["Parent"] = BackGround
 	Tab["BorderSizePixel"] = 0
-	Tab["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	Tab["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	Tab["Size"] = UDim2.new(0, 85, 0, 300)
 	Tab["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 	Tab["Name"] = [[Tab]]
@@ -1304,7 +1304,7 @@ function Library:CreateWindow(a)
 
 	TabList["Parent"] = Tab
 	TabList["BorderSizePixel"] = 0
-	TabList["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	TabList["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	TabList["Size"] = UDim2.new(0, 54, 0, 222)
 	TabList["Position"] = UDim2.new(0.17647, 0, 0.13, 0)
 	TabList["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1315,7 +1315,7 @@ function Library:CreateWindow(a)
 	ScrollingFrame["Active"] = true
 	ScrollingFrame["BorderSizePixel"] = 0
 	ScrollingFrame["CanvasSize"] = UDim2.new(0, 0, 1, 0)
-	ScrollingFrame["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	ScrollingFrame["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	ScrollingFrame["Size"] = UDim2.new(1, 0, 1, 0)
 	ScrollingFrame["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0)
 	ScrollingFrame["Transparency"] = 1
@@ -1364,7 +1364,7 @@ function Library:CreateWindow(a)
 		TabClick["BorderSizePixel"] = 0
 		TabClick["TextSize"] = 14
 		TabClick["TextColor3"] = Color3.fromRGB(0, 0, 0)
-		TabClick["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		TabClick["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		TabClick["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 		TabClick["Size"] = UDim2.new(1, 0, 1, 0)
 		TabClick["BackgroundTransparency"] = 1
@@ -1374,7 +1374,7 @@ function Library:CreateWindow(a)
 
 		IconTab["Parent"] = ATab
 		IconTab["BorderSizePixel"] = 0
-		IconTab["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		IconTab["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		IconTab["ImageColor3"] = Color3.fromRGB(0, 0, 0)
 		IconTab["AnchorPoint"] = Vector2.new(0.5, 0.5)
 		if assets[a.Icon] then
@@ -1398,7 +1398,7 @@ function Library:CreateWindow(a)
 		TitleTab["Parent"] = ATab
 		TitleTab["TextWrapped"] = true
 		TitleTab["BorderSizePixel"] = 0
-		TitleTab["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		TitleTab["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		TitleTab["TextSize"] = 10
 		TitleTab["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 		TitleTab["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1413,7 +1413,7 @@ function Library:CreateWindow(a)
 
 		tickback["Parent"] = ATab
 		tickback["BorderSizePixel"] = 0
-		tickback["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		tickback["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		tickback["AnchorPoint"] = Vector2.new(0.5, 0.5)
 		tickback["Size"] = UDim2.new(0, 10, 0, 10)
 		tickback["Position"] = UDim2.new(0.85, 0, 0.2, 0)
@@ -1452,7 +1452,7 @@ function Library:CreateWindow(a)
 
 		Page["Parent"] = BackGround
 		Page["BorderSizePixel"] = 0
-		Page["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		Page["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		Page["Size"] = UDim2.new(0, 350, 0, 208)
 		Page["Position"] = UDim2.new(0.22105, 0, 0.27, 0)
 		Page["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1462,7 +1462,7 @@ function Library:CreateWindow(a)
 
 		PageL = Instance.new("Frame", Page)
 		PageL["BorderSizePixel"] = 0
-		PageL["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		PageL["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		PageL["Size"] = UDim2.new(0, 171, 0, 208)
 		PageL["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 		PageL["Name"] = [[PageLeft]]
@@ -1475,7 +1475,7 @@ function Library:CreateWindow(a)
 
 		SectionFrame["Parent"] = PageL
 		SectionFrame["BorderSizePixel"] = 0
-		SectionFrame["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		SectionFrame["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		SectionFrame["Size"] = UDim2.new(0, 170, 0, 20)
 		SectionFrame["Position"] = UDim2.new(0, 0, 0.02885, 0)
 		SectionFrame["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1491,7 +1491,7 @@ function Library:CreateWindow(a)
 
 		IconPageL["Parent"] = SectionFrame
 		IconPageL["BorderSizePixel"] = 0
-		IconPageL["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		IconPageL["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		IconPageL["ImageColor3"] = Color3.fromRGB(0, 0, 0)
 		IconPageL["AnchorPoint"] = Vector2.new(0.5, 0.5)
 		if assets[a.Page.Left.Icon] then
@@ -1514,7 +1514,7 @@ function Library:CreateWindow(a)
 		TitlePageL["TextWrapped"] = true
 		TitlePageL["BorderSizePixel"] = 0
 		TitlePageL["TextXAlignment"] = Enum.TextXAlignment.Left
-		TitlePageL["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		TitlePageL["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		TitlePageL["TextSize"] = 10
 		TitlePageL["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 		TitlePageL["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1547,7 +1547,7 @@ function Library:CreateWindow(a)
 
 		PageR = Instance.new("Frame", Page)
 		PageR["BorderSizePixel"] = 0
-		PageR["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		PageR["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		PageR["Size"] = UDim2.new(0, 171, 0, 208)
 		PageR["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 		PageR["Name"] = [[PageRight]]
@@ -1561,7 +1561,7 @@ function Library:CreateWindow(a)
 
 		SectionFrame2["Parent"] = PageR
 		SectionFrame2["BorderSizePixel"] = 0
-		SectionFrame2["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		SectionFrame2["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		SectionFrame2["Size"] = UDim2.new(0, 170, 0, 20)
 		SectionFrame2["Position"] = UDim2.new(0, 0, 0.02885, 0)
 		SectionFrame2["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1577,7 +1577,7 @@ function Library:CreateWindow(a)
 
 		IconPageR["Parent"] = SectionFrame2
 		IconPageR["BorderSizePixel"] = 0
-		IconPageR["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		IconPageR["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		IconPageR["ImageColor3"] = Color3.fromRGB(0, 0, 0)
 		IconPageR["AnchorPoint"] = Vector2.new(0.5, 0.5)
 		if assets[a.Page.Right.Icon] then
@@ -1601,7 +1601,7 @@ function Library:CreateWindow(a)
 		TitlePageR["TextWrapped"] = true
 		TitlePageR["BorderSizePixel"] = 0
 		TitlePageR["TextXAlignment"] = Enum.TextXAlignment.Left
-		TitlePageR["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		TitlePageR["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		TitlePageR["TextSize"] = 10
 		TitlePageR["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 		TitlePageR["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1632,7 +1632,7 @@ function Library:CreateWindow(a)
 
 		SectionList["Parent"] = PageL
 		SectionList["BorderSizePixel"] = 0
-		SectionList["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		SectionList["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		SectionList["Size"] = UDim2.new(0, 171, 0, 169)
 		SectionList["Position"] = UDim2.new(0, 0, 0.1875, 0)
 		SectionList["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1641,7 +1641,7 @@ function Library:CreateWindow(a)
 
 		SectionList2["Parent"] = PageR
 		SectionList2["BorderSizePixel"] = 0
-		SectionList2["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		SectionList2["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		SectionList2["Size"] = UDim2.new(0, 171, 0, 169)
 		SectionList2["Position"] = UDim2.new(0, 0, 0.1875, 0)
 		SectionList2["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1651,7 +1651,7 @@ function Library:CreateWindow(a)
 		ScrollingFrame1["Parent"] = SectionList
 		ScrollingFrame1["Active"] = true
 		ScrollingFrame1["BorderSizePixel"] = 0
-		ScrollingFrame1["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		ScrollingFrame1["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		ScrollingFrame1["Size"] = UDim2.new(1, 0, 1, 0)
 		ScrollingFrame1["ScrollBarImageColor3"] = Color3.fromRGB(0, 100, 255)
 		ScrollingFrame1["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1661,7 +1661,7 @@ function Library:CreateWindow(a)
 		ScrollingFrame2["Parent"] = SectionList2
 		ScrollingFrame2["Active"] = true
 		ScrollingFrame2["BorderSizePixel"] = 0
-		ScrollingFrame2["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+		ScrollingFrame2["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 		ScrollingFrame2["Size"] = UDim2.new(1, 0, 1, 0)
 		ScrollingFrame2["ScrollBarImageColor3"] = Color3.fromRGB(0, 100, 255)
 		ScrollingFrame2["BorderColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1759,7 +1759,7 @@ function Library:CreateWindow(a)
 			TitleLabel["Parent"] = Label
 			TitleLabel["BorderSizePixel"] = 0
 			TitleLabel["TextXAlignment"] = Enum.TextXAlignment.Left
-			TitleLabel["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			TitleLabel["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			TitleLabel["TextSize"] = 9
 			TitleLabel["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			TitleLabel["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1776,7 +1776,7 @@ function Library:CreateWindow(a)
 			DesLabel["BorderSizePixel"] = 0
 			DesLabel["TextXAlignment"] = Enum.TextXAlignment.Left
 			DesLabel["TextTransparency"] = 0.5
-			DesLabel["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			DesLabel["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			DesLabel["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			DesLabel["TextColor3"] = Color3.fromRGB(0, 0, 0)
 			DesLabel["BackgroundTransparency"] = 1
@@ -1835,7 +1835,7 @@ function Library:CreateWindow(a)
 			TitleToggle["Parent"] = Toggle
 			TitleToggle["BorderSizePixel"] = 0
 			TitleToggle["TextXAlignment"] = Enum.TextXAlignment.Left
-			TitleToggle["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			TitleToggle["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			TitleToggle["TextSize"] = 9
 			TitleToggle["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			TitleToggle["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1851,7 +1851,7 @@ function Library:CreateWindow(a)
 			DesToggle["BorderSizePixel"] = 0
 			DesToggle["TextXAlignment"] = Enum.TextXAlignment.Left
 			DesToggle["TextTransparency"] = 0.5
-			DesToggle["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			DesToggle["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			DesToggle["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			DesToggle["TextColor3"] = Color3.fromRGB(0, 0, 0)
 			DesToggle["BackgroundTransparency"] = 1
@@ -1896,7 +1896,7 @@ function Library:CreateWindow(a)
 			ToggleClick["BorderSizePixel"] = 0
 			ToggleClick["TextSize"] = 14
 			ToggleClick["TextColor3"] = Color3.fromRGB(0, 0, 0)
-			ToggleClick["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			ToggleClick["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			ToggleClick["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 			ToggleClick["Size"] = UDim2.new(1, 0, 1, 0)
 			ToggleClick["BackgroundTransparency"] = 1
@@ -1963,7 +1963,7 @@ function Library:CreateWindow(a)
 			Buttons["be"] = Instance.new("TextLabel", Buttons["bb"])
 			Buttons["be"]["BorderSizePixel"] = 0
 			Buttons["be"]["TextXAlignment"] = Enum.TextXAlignment.Left
-			Buttons["be"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Buttons["be"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Buttons["be"]["TextSize"] = 9
 			Buttons["be"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Buttons["be"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -1979,7 +1979,7 @@ function Library:CreateWindow(a)
 			Buttons["bf"]["BorderSizePixel"] = 0
 			Buttons["bf"]["TextXAlignment"] = Enum.TextXAlignment.Left
 			Buttons["bf"]["TextTransparency"] = 0.5
-			Buttons["bf"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Buttons["bf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Buttons["bf"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Buttons["bf"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
 			Buttons["bf"]["BackgroundTransparency"] = 1
@@ -2013,7 +2013,7 @@ function Library:CreateWindow(a)
 			Buttons["c3"]["BorderSizePixel"] = 0
 			Buttons["c3"]["TextSize"] = 14
 			Buttons["c3"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
-			Buttons["c3"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Buttons["c3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Buttons["c3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 			Buttons["c3"]["Size"] = UDim2.new(1, 0, 1, 0)
 			Buttons["c3"]["BackgroundTransparency"] = 1
@@ -2060,7 +2060,7 @@ function Library:CreateWindow(a)
 			UIStroke16["Color"] = Color3.fromRGB(223, 223, 223)
 
 			Confirm["BorderSizePixel"] = 0
-			Confirm["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Confirm["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Confirm["AnchorPoint"] = Vector2.new(0.5, 0.5)
 			Confirm["Size"] = UDim2.new(0, 85, 0, 30)
 			Confirm["Position"] = UDim2.new(0.2617, 0, 0.7355, 0)
@@ -2073,7 +2073,7 @@ function Library:CreateWindow(a)
 			UIStroke17["Color"] = Color3.fromRGB(223, 223, 223)
 
 			TextLabelC["BorderSizePixel"] = 0
-			TextLabelC["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			TextLabelC["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			TextLabelC["TextSize"] = 14
 			TextLabelC["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			TextLabelC["TextColor3"] = Color3.fromRGB(0, 102, 255)
@@ -2087,7 +2087,7 @@ function Library:CreateWindow(a)
 			TextButton["BorderSizePixel"] = 0
 			TextButton["TextSize"] = 14
 			TextButton["TextColor3"] = Color3.fromRGB(0, 0, 0)
-			TextButton["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			TextButton["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			TextButton["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 			TextButton["Size"] = UDim2.new(1, 0, 1, 0)
 			TextButton["BackgroundTransparency"] = 1
@@ -2095,7 +2095,7 @@ function Library:CreateWindow(a)
 			TextButton["Text"] = [[]]
 
 			Cancel["BorderSizePixel"] = 0
-			Cancel["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Cancel["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Cancel["AnchorPoint"] = Vector2.new(0.5, 0.5)
 			Cancel["Size"] = UDim2.new(0, 85, 0, 30)
 			Cancel["Position"] = UDim2.new(0.7367, 0, 0.7355, 0)
@@ -2108,7 +2108,7 @@ function Library:CreateWindow(a)
 			UIStroke18["Color"] = Color3.fromRGB(223, 223, 223)
 
 			TextLabel2["BorderSizePixel"] = 0
-			TextLabel2["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			TextLabel2["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			TextLabel2["TextSize"] = 14
 			TextLabel2["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			TextLabel2["TextColor3"] = Color3.fromRGB(255, 0, 0)
@@ -2122,7 +2122,7 @@ function Library:CreateWindow(a)
 			TextButton2["BorderSizePixel"] = 0
 			TextButton2["TextSize"] = 14
 			TextButton2["TextColor3"] = Color3.fromRGB(0, 0, 0)
-			TextButton2["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			TextButton2["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			TextButton2["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 			TextButton2["Size"] = UDim2.new(1, 0, 1, 0)
 			TextButton2["BackgroundTransparency"] = 1
@@ -2131,7 +2131,7 @@ function Library:CreateWindow(a)
 
 			Des2["BorderSizePixel"] = 0
 			Des2["TextTransparency"] = 0.5
-			Des2["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Des2["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Des2["TextSize"] = 10
 			Des2["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Des2["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2144,7 +2144,7 @@ function Library:CreateWindow(a)
 			Des2["Position"] = UDim2.new(0.5, 0, 0.43495, 0)
 
 			Title2["BorderSizePixel"] = 0
-			Title2["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Title2["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Title2["TextSize"] = 12
 			Title2["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Title2["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2240,7 +2240,7 @@ function Library:CreateWindow(a)
 			Sliders["a6"] = Instance.new("TextLabel", Sliders["a3"])
 			Sliders["a6"]["BorderSizePixel"] = 0
 			Sliders["a6"]["TextXAlignment"] = Enum.TextXAlignment.Left
-			Sliders["a6"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Sliders["a6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Sliders["a6"]["TextSize"] = 9
 			Sliders["a6"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Sliders["a6"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2256,7 +2256,7 @@ function Library:CreateWindow(a)
 			Sliders["a7"]["BorderSizePixel"] = 0
 			Sliders["a7"]["TextXAlignment"] = Enum.TextXAlignment.Left
 			Sliders["a7"]["TextTransparency"] = 0.5
-			Sliders["a7"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Sliders["a7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Sliders["a7"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Sliders["a7"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
 			Sliders["a7"]["BackgroundTransparency"] = 1
@@ -2299,7 +2299,7 @@ function Library:CreateWindow(a)
 			Sliders["ad"]["BorderSizePixel"] = 0
 			Sliders["ad"]["TextSize"] = 14
 			Sliders["ad"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
-			Sliders["ad"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Sliders["ad"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Sliders["ad"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 			Sliders["ad"]["Size"] = UDim2.new(1, 0, 1, 0)
 			Sliders["ad"]["BackgroundTransparency"] = 1
@@ -2400,7 +2400,7 @@ function Library:CreateWindow(a)
 			Dropdowns["b4"] = Instance.new("TextLabel", Dropdowns["b1"])
 			Dropdowns["b4"]["BorderSizePixel"] = 0
 			Dropdowns["b4"]["TextXAlignment"] = Enum.TextXAlignment.Left
-			Dropdowns["b4"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Dropdowns["b4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Dropdowns["b4"]["TextSize"] = 9
 			Dropdowns["b4"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Dropdowns["b4"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2416,7 +2416,7 @@ function Library:CreateWindow(a)
 			Dropdowns["b5"]["BorderSizePixel"] = 0
 			Dropdowns["b5"]["TextXAlignment"] = Enum.TextXAlignment.Left
 			Dropdowns["b5"]["TextTransparency"] = 0.5
-			Dropdowns["b5"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Dropdowns["b5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Dropdowns["b5"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Dropdowns["b5"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
 			Dropdowns["b5"]["BackgroundTransparency"] = 1
@@ -2450,7 +2450,7 @@ function Library:CreateWindow(a)
 			Dropdowns["b9"]["BorderSizePixel"] = 0
 			Dropdowns["b9"]["TextSize"] = 14
 			Dropdowns["b9"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
-			Dropdowns["b9"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Dropdowns["b9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Dropdowns["b9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
 			Dropdowns["b9"]["Size"] = UDim2.new(1, 0, 1, 0)
 			Dropdowns["b9"]["BackgroundTransparency"] = 1
@@ -2485,7 +2485,7 @@ function Library:CreateWindow(a)
 
 			local DropdownSelectList = Instance.new("Frame", Dropdowns["39"])
 			DropdownSelectList["BorderSizePixel"] = 0
-			DropdownSelectList["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			DropdownSelectList["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			DropdownSelectList["AnchorPoint"] = Vector2.new(0.5, 0.5)
 			DropdownSelectList["Size"] = UDim2.new(0.9, 0, 0.7536, 0)
 			DropdownSelectList["Position"] = UDim2.new(0.5, 0, 0.5732, 0)
@@ -2502,7 +2502,7 @@ function Library:CreateWindow(a)
 			local CONTAINER = Instance.new("ScrollingFrame", DropdownSelectList)
 			CONTAINER["Active"] = true
 			CONTAINER["BorderSizePixel"] = 0
-			CONTAINER["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			CONTAINER["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			CONTAINER["Size"] = UDim2.new(1, 0, 0.95488, 0)
 			CONTAINER["ScrollBarImageColor3"] = Color3.fromRGB(0, 100, 255)
 			CONTAINER["Position"] = UDim2.new(0, 0, 0.04512, 0)
@@ -2513,7 +2513,7 @@ function Library:CreateWindow(a)
 			local DropdownDes = Instance.new("TextLabel", Dropdowns["39"])
 			DropdownDes["BorderSizePixel"] = 0
 			DropdownDes["TextTransparency"] = 0.5
-			DropdownDes["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			DropdownDes["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			DropdownDes["TextSize"] = 10
 			DropdownDes["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			DropdownDes["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2527,7 +2527,7 @@ function Library:CreateWindow(a)
 
 			local DropdownTitle = Instance.new("TextLabel", Dropdowns["39"])
 			DropdownTitle["BorderSizePixel"] = 0
-			DropdownTitle["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			DropdownTitle["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			DropdownTitle["TextSize"] = 12
 			DropdownTitle["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			DropdownTitle["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2543,7 +2543,7 @@ function Library:CreateWindow(a)
 			Dropdowns["70"]["BorderSizePixel"] = 0
 			Dropdowns["70"]["TextSize"] = 14
 			Dropdowns["70"]["TextColor3"] = Color3.fromRGB(255, 0, 0)
-			Dropdowns["70"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Dropdowns["70"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Dropdowns["70"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Dropdowns["70"]["Size"] = UDim2.new(0, 32, 0, 32)
 			Dropdowns["70"]["BackgroundTransparency"] = 1
@@ -2587,7 +2587,7 @@ function Library:CreateWindow(a)
 				item["43"] = Instance.new("TextLabel", item["40"])
 				item["43"]["BorderSizePixel"] = 0
 				item["43"]["TextTransparency"] = 0.5
-				item["43"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+				item["43"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 				item["43"]["TextSize"] = 11
 				item["43"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 				item["43"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2598,7 +2598,7 @@ function Library:CreateWindow(a)
 
 				item["44"] = Instance.new("Frame", item["40"])
 				item["44"]["BorderSizePixel"] = 0
-				item["44"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+				item["44"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 				item["44"]["AnchorPoint"] = Vector2.new(0.5, 0.5)
 				item["44"]["Size"] = UDim2.new(0, 10, 0, 10)
 				item["44"]["Position"] = UDim2.new(0.95, 0, 0.5, 0)
@@ -2733,7 +2733,7 @@ function Library:CreateWindow(a)
 			Dropdowns["ba"] = Instance.new("TextLabel", Dropdowns["b6"])
 			Dropdowns["ba"]["TextWrapped"] = true
 			Dropdowns["ba"]["BorderSizePixel"] = 0
-			Dropdowns["ba"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			Dropdowns["ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			Dropdowns["ba"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			Dropdowns["ba"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
 			Dropdowns["ba"]["BackgroundTransparency"] = 1
@@ -2773,7 +2773,7 @@ function Library:CreateWindow(a)
 			TextBox["cc"] = Instance.new("TextLabel", TextBox["c9"])
 			TextBox["cc"]["BorderSizePixel"] = 0
 			TextBox["cc"]["TextXAlignment"] = Enum.TextXAlignment.Left
-			TextBox["cc"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			TextBox["cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			TextBox["cc"]["TextSize"] = 9
 			TextBox["cc"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			TextBox["cc"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2789,7 +2789,7 @@ function Library:CreateWindow(a)
 			TextBox["cd"]["BorderSizePixel"] = 0
 			TextBox["cd"]["TextXAlignment"] = Enum.TextXAlignment.Left
 			TextBox["cd"]["TextTransparency"] = 0.5
-			TextBox["cd"]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+			TextBox["cd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 			TextBox["cd"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 			TextBox["cd"]["TextColor3"] = Color3.fromRGB(0, 0, 0)
 			TextBox["cd"]["BackgroundTransparency"] = 1
@@ -2853,7 +2853,7 @@ local AUI = {}
 
 AUI[1] = Instance.new("Frame", Patinum)
 AUI[1]["BorderSizePixel"] = 0
-AUI[1]["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+AUI[1]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 AUI[1]["AnchorPoint"] = Vector2.new(0.5, 0.5)
 AUI[1]["Size"] = UDim2.new(0, 25, 0, 309)
 AUI[1]["Position"] = UDim2.new(0.9734, 0, 0.57072, 0)
@@ -2885,7 +2885,7 @@ function Library:Notify(a)
 
 	local textList = Instance.new("Frame", notify)
 	textList["BorderSizePixel"] = 0
-	textList["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	textList["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	textList["Size"] = UDim2.new(1, 0, 1, 0)
 	textList["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 	textList["Name"] = "TextList"
@@ -2898,7 +2898,7 @@ function Library:Notify(a)
 
 	local textFrame = Instance.new("Frame", textList)
 	textFrame["BorderSizePixel"] = 0
-	textFrame["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	textFrame["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	textFrame["Size"] = UDim2.new(0, 154, 0, 50)
 	textFrame["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 	textFrame["Name"] = "Text"
@@ -2907,7 +2907,7 @@ function Library:Notify(a)
 	local title = Instance.new("TextLabel", textFrame)
 	title["BorderSizePixel"] = 0
 	title["TextXAlignment"] = Enum.TextXAlignment.Left
-	title["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	title["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	title["TextSize"] = 13
 	title["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 	title["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2922,7 +2922,7 @@ function Library:Notify(a)
 	desc["BorderSizePixel"] = 0
 	desc["TextXAlignment"] = Enum.TextXAlignment.Left
 	desc["TextTransparency"] = 0.5
-	desc["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	desc["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	desc["TextSize"] = 11
 	desc["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
 	desc["TextColor3"] = Color3.fromRGB(0, 0, 0)
@@ -2935,7 +2935,7 @@ function Library:Notify(a)
 
 	local logo = Instance.new("Frame", textList)
 	logo["BorderSizePixel"] = 0
-	logo["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	logo["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	logo["Size"] = UDim2.new(0, 45, 0, 50)
 	logo["BorderColor3"] = Color3.fromRGB(0, 0, 0)
 	logo["Name"] = "Logo"
@@ -2947,7 +2947,7 @@ function Library:Notify(a)
 
 	local logoImage = Instance.new("ImageLabel", logo)
 	logoImage["BorderSizePixel"] = 0
-	logoImage["BackgroundColor3"] = Color3.fromRGB(2, 1, 9)
+	logoImage["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 	logoImage["ImageTransparency"] = 0.5
 	logoImage["ImageColor3"] = Color3.fromRGB(17, 17, 17)
 	logoImage["AnchorPoint"] = Vector2.new(0.5, 0.5)
