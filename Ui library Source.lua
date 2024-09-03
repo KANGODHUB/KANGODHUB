@@ -975,7 +975,6 @@ function Library:CreateWindow(a)
 	UICorner.Parent = BackGround
 	UICorner.CornerRadius = UDim.new(0, 9)
 
-	local Credit = Instance.new("Frame")
 	local UICorner2 = Instance.new("UICorner")
 	local UIStroke = Instance.new("UIStroke")
 	local UIListLayout = Instance.new("UIListLayout")
@@ -983,7 +982,6 @@ function Library:CreateWindow(a)
 	local Keed1 = Instance.new("Frame")
 	local Bang1 = Instance.new("Frame")
 	local UserIcon = Instance.new("ImageLabel")
-	local CreditText = Instance.new("TextLabel")
 	local Keed2 = Instance.new("Frame")
 	local Bang2 = Instance.new("Frame")
 	local Bang3 = Instance.new("Frame")
@@ -1051,38 +1049,7 @@ function Library:CreateWindow(a)
 	UserIcon.Name = "UserIcon"
 	UserIcon.Position = UDim2.new(0, 0, 0.68605, 0)
 
-	CreditText.Parent = Credit
-	CreditText.BorderSizePixel = 0
-	CreditText.TextTransparency = 0.5
-	CreditText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	CreditText.TextSize = 9
-	CreditText.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-	CreditText.TextColor3 = Color3.fromRGB(0, 0, 0)
-	CreditText.BackgroundTransparency = 1
-	CreditText.Size = UDim2.new(0, 55, 0, 17)
-	CreditText.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	CreditText.Text = a.Credit
-	CreditText.LayoutOrder = 5
-	CreditText.Name = "CreditText"
-	CreditText.Position = UDim2.new(0.41935, 0, 0.30233, 0)
 
-	Keed2.Parent = Credit
-	Keed2.BorderSizePixel = 0
-	Keed2.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
-	Keed2.Size = UDim2.new(0, 1, 0, 23)
-	Keed2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Keed2.Name = "Keed2"
-	Keed2.LayoutOrder = 7
-	Keed2.BackgroundTransparency = 0.4
-
-	Bang2.Parent = Credit
-	Bang2.BorderSizePixel = 0
-	Bang2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Bang2.Size = UDim2.new(0, 7, 0, 15)
-	Bang2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Bang2.Name = "Bang1"
-	Bang2.LayoutOrder = 6
-	Bang2.BackgroundTransparency = 1
 
 	Bang3.Parent = Credit
 	Bang3.BorderSizePixel = 0
