@@ -86,10 +86,10 @@ Op("SelectIsland","Sus Island")
 Op("GetQuestMonBoss",true)
 Op("GetQuestBossFun",true)
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/KANGODHUB/KANGODHUB/main/Ui%20library%20Source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/KANGODHUB/KANGODHUB/main/UI"))()
 
 local Window = Library:CreateWindow({
-	Credit = "pindummy"
+	Credit = "zMALACHI ON TOP!"
 })
 
 local Page1 = Window:AddPage({
